@@ -1,6 +1,51 @@
 {
   "nodes": [
     {
+      "id": "changelog",
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_changelog",
+      "label": "Changelog",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_console_input_repair",
+      "label": "Console input repair",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_compatibility_and_migrations",
+      "label": "Compatibility and migrations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_known_pre_existing_limitations",
+      "label": "Known pre-existing limitations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
       "id": "console_input",
       "label": "console_input.h",
       "file_type": "code",
@@ -493,6 +538,46 @@
     }
   ],
   "links": [
+    {
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_changelog",
+      "target": "changelog_console_input_repair",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_console_input_repair",
+      "target": "changelog_compatibility_and_migrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_console_input_repair",
+      "target": "changelog_known_pre_existing_limitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
     {
       "source": "console_input",
       "target": "istream",
@@ -1683,13 +1768,130 @@
       "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast"
+    },
+    {
+      "source": "console_input_h_string",
+      "target": "console_input_parse_integer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_parse_integer",
+      "_tgt": "console_input_h_string"
+    },
+    {
+      "source": "console_input_h_string",
+      "target": "console_input_read_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_decision",
+      "_tgt": "console_input_h_string"
+    },
+    {
+      "source": "console_input_h_string",
+      "target": "console_input_read_integer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_integer",
+      "_tgt": "console_input_h_string"
+    },
+    {
+      "source": "console_input_h_string",
+      "target": "console_input_read_name",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_name",
+      "_tgt": "console_input_h_string"
+    },
+    {
+      "source": "istream",
+      "target": "console_input_read_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_decision",
+      "_tgt": "istream"
+    },
+    {
+      "source": "istream",
+      "target": "console_input_read_integer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_integer",
+      "_tgt": "istream"
+    },
+    {
+      "source": "ostream",
+      "target": "console_input_read_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_decision",
+      "_tgt": "ostream"
+    },
+    {
+      "source": "ostream",
+      "target": "console_input_read_integer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_read_integer",
+      "_tgt": "ostream"
+    },
+    {
+      "source": "console_input_tests_cpp_string",
+      "target": "console_input_tests_run_round",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "console_input_tests_run_round",
+      "_tgt": "console_input_tests_cpp_string"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-04T12:46:37.772861+00:00",
+    "built_at": "2026-11-04T12:51:04.062781+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T011GSU2iRpR9000104112612321019\\developer",
     "force": true,
-    "files_scanned": 4
+    "files_scanned": 5
   }
 }
