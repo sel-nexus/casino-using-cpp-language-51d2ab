@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <limits>
+#include "console_input.h"
 using namespace std;
 
 void rules();
@@ -15,30 +17,32 @@ int main() {
 
 void round1() {
     string name;
-    cout << "Enter your name: ";
-    cin >> name;
+    if (!console_input::read_name(cin, cout, "Enter your name: ", name)) {
+        cout << "\nGoodbye. Have a nice day.\n";
+        return;
+    }
     cout << "\n\n";
 
     int deposit1;
-    cout << "Enter the money to deposit for the game: ";
-    cin >> deposit1;
+    if (!console_input::read_integer(cin, cout,
+            "Enter the money to deposit for the game: ",
+            1, numeric_limits<int>::max(), deposit1,
+            "Deposit must be positive.", "Deposit exceeds the integer range.")) {
+        cout << "\nGoodbye. Have a nice day.\n";
+        return;
+    }
     cout << "\n\n";
 
     cout << "Your current balance is " << deposit1 << "\n\n";
 
     while (deposit1 >= 100) {
         int bet1;
-        cout << name << ", enter the money to bet (minimum 100): ";
-        cin >> bet1;
-        cout << "\n\n";
-
-        while (bet1 > deposit1 || bet1 < 100) {
-            if (bet1 > deposit1) {
-                cout << "Money exceeds your balance.\nEnter again: ";
-            } else {
-                cout << "Minimum bet is 100.\nEnter again: ";
-            }
-            cin >> bet1;
+        if (!console_input::read_integer(cin, cout,
+                name + ", enter the money to bet (minimum 100): ",
+                100, deposit1, bet1, "Minimum bet is 100.",
+                "Money exceeds your balance.")) {
+            cout << "\nGoodbye. Have a nice day.\n";
+            return;
         }
         cout << "\n\n";
 
@@ -46,13 +50,11 @@ void round1() {
         int computer1 = rand() % 10 + 1; // Generate a number between 1 and 10
         int guess1;
 
-        cout << "Guess a number between 1 to 10: ";
-        cin >> guess1;
-        cout << "\n\n";
-
-        while (guess1 > 10 || guess1 < 1) {
-            cout << "Number exceeds the range.\nEnter again: ";
-            cin >> guess1;
+        if (!console_input::read_integer(cin, cout,
+                "Guess a number between 1 to 10: ", 1, 10, guess1,
+                "Number exceeds the range.", "Number exceeds the range.")) {
+            cout << "\nGoodbye. Have a nice day.\n";
+            return;
         }
         cout << "\n\n";
 
@@ -75,8 +77,11 @@ void round1() {
         }
 
         char decision;
-        cout << "Do you want to continue? (y/n): ";
-        cin >> decision;
+        if (!console_input::read_decision(cin, cout,
+                "Do you want to continue? (y/n): ", decision)) {
+            cout << "\nGoodbye. Have a nice day.\n";
+            return;
+        }
         cout << "\n\n";
 
         if (decision == 'n' || decision == 'N') {
