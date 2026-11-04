@@ -1,0 +1,1695 @@
+{
+  "nodes": [
+    {
+      "id": "console_input",
+      "label": "console_input.h",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_trim",
+      "label": "trim()",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L19",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_h_string",
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_parse_integer",
+      "label": "parse_integer()",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_read_name",
+      "label": "read_name()",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "istream",
+      "label": "istream",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "ostream",
+      "label": "ostream",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_read_integer",
+      "label": "read_integer()",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_read_decision",
+      "label": "read_decision()",
+      "file_type": "code",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests",
+      "label": "console_input_tests.cpp",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_check",
+      "label": "check()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_cpp_string",
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_fixed_rand",
+      "label": "fixed_rand()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L28",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_fixed_srand",
+      "label": "fixed_srand()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L33",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_run_round",
+      "label": "run_round()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_parser",
+      "label": "test_parser()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_names",
+      "label": "test_names()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L95",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_integers",
+      "label": "test_integers()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L113",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_decisions",
+      "label": "test_decisions()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L150",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_round_branches",
+      "label": "test_round_branches()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L175",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_test_round_eof",
+      "label": "test_round_eof()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L197",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "console_input_tests_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L211",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "main_1",
+      "label": "main (1).cpp",
+      "file_type": "code",
+      "source_file": "main (1).cpp",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "main_1_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "main (1).cpp",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "main_1_round1",
+      "label": "round1()",
+      "file_type": "code",
+      "source_file": "main (1).cpp",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "main_1_rules",
+      "label": "rules()",
+      "file_type": "code",
+      "source_file": "main (1).cpp",
+      "source_location": "L94",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "test_console",
+      "label": "test_console.py",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_nativebuild",
+      "label": "NativeBuild",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L19",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_nativebuild_setupclass",
+      "label": ".setUpClass()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_helperunittests",
+      "label": "HelperUnitTests",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L49",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_helperunittests_test_native_helpers_and_original_branches",
+      "label": ".test_native_helpers_and_original_branches()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L52",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests",
+      "label": "ConsoleJourneyTests",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_journey",
+      "label": ".journey()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L69",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_assert_round_math",
+      "label": ".assert_round_math()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L85",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_full_nonblank_names_and_positive_low_deposits",
+      "label": ".test_full_nonblank_names_and_positive_low_deposits()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L119",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_integer_recovery_at_every_numeric_prompt",
+      "label": ".test_integer_recovery_at_every_numeric_prompt()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L135",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_eof_at_every_prompt_and_after_each_rejection",
+      "label": ".test_eof_at_every_prompt_and_after_each_rejection()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L158",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_case_insensitive_stop_and_invalid_decision_recovery",
+      "label": ".test_case_insensitive_stop_and_invalid_decision_recovery()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L177",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_case_insensitive_continue_and_balance_state",
+      "label": ".test_case_insensitive_continue_and_balance_state()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L189",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_consolejourneytests_test_bet_guess_boundaries_and_random_all_in_outcome",
+      "label": ".test_bet_guess_boundaries_and_random_all_in_outcome()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L200",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "test_console.py",
+      "source_location": "L215",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_1",
+      "label": "Compile native units and real console journeys using only the standard library.\u2026",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_20",
+      "label": "Own warning-free native builds and temporary executable lifetime.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_24",
+      "label": "Compile both sources outside the workspace, surfacing compiler failures.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_50",
+      "label": "Run helper assertions and deterministic original-round branch tests.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_53",
+      "label": "Require all six native groups to pass with real assertions.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_67",
+      "label": "Exercise only the real compiled console program with bounded subprocesses.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_70",
+      "label": "Run a complete console input script and require clean termination. Args: data:\u2026",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_86",
+      "label": "Validate the actual random outcome against unchanged payout arithmetic. Args:\u2026",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_120",
+      "label": "Recover blank names and retain full names without consuming the deposit.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L120",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_136",
+      "label": "Reject blanks, malformed, overflow, trailing junk, and invalid ranges.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L136",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_159",
+      "label": "Terminate at initial and retry prompts, including the original hang case.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L159",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_178",
+      "label": "Reject complete invalid decisions instead of accepting their first letter.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L178",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_190",
+      "label": "Play two real random rounds and validate the carried-forward balance.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L190",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_201",
+      "label": "Accept exact bet/guess boundaries and verify either random all-in result.",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L201",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_console_rationale_216",
+      "label": "Select units alone or the complete suite without marking journeys skipped.\u2026",
+      "file_type": "rationale",
+      "source_file": "test_console.py",
+      "source_location": "L216",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "console_input",
+      "target": "istream",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "ostream",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_h_string",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_trim",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_trim",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_trim",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_parse_integer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_parse_integer",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_read_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_name",
+      "target": "istream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_name",
+      "target": "ostream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_name",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_read_integer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_integer",
+      "target": "istream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_integer",
+      "target": "ostream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_integer",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input",
+      "target": "console_input_read_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_decision",
+      "target": "istream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_decision",
+      "target": "ostream",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_decision",
+      "target": "console_input_h_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_parse_integer",
+      "target": "console_input_trim",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_name",
+      "target": "console_input_trim",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_integer",
+      "target": "console_input_parse_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_read_decision",
+      "target": "console_input_trim",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input.h",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_h_string",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_check",
+      "target": "console_input_tests_cpp_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_fixed_rand",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_fixed_srand",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "main_1",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_run_round",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_run_round",
+      "target": "console_input_tests_cpp_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_run_round",
+      "target": "console_input_tests_cpp_string",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_parser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_names",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_integers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_decisions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_round_branches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_test_round_eof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests",
+      "target": "console_input_tests_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L211",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_parser",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_names",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_integers",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_decisions",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_round_branches",
+      "target": "console_input_tests_run_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_round_branches",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_round_eof",
+      "target": "console_input_tests_run_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L202",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_round_eof",
+      "target": "console_input_tests_check",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_parser",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_names",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L214",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_integers",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L215",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_decisions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L216",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_round_branches",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L217",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_main",
+      "target": "console_input_tests_test_round_eof",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1",
+      "target": "console_input",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1",
+      "target": "main_1_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1",
+      "target": "main_1_round1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1",
+      "target": "main_1_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1_main",
+      "target": "main_1_rules",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1_main",
+      "target": "main_1_round1",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main (1).cpp",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console",
+      "target": "test_console_nativebuild",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_nativebuild",
+      "target": "test_console_nativebuild_setupclass",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console",
+      "target": "test_console_helperunittests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_helperunittests",
+      "target": "test_console_nativebuild",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_helperunittests",
+      "target": "test_console_helperunittests_test_native_helpers_and_original_branches",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console",
+      "target": "test_console_consolejourneytests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_nativebuild",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_full_nonblank_names_and_positive_low_deposits",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_integer_recovery_at_every_numeric_prompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_eof_at_every_prompt_and_after_each_rejection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_case_insensitive_stop_and_invalid_decision_recovery",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_case_insensitive_continue_and_balance_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests",
+      "target": "test_console_consolejourneytests_test_bet_guess_boundaries_and_random_all_in_outcome",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L200",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console",
+      "target": "test_console_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_full_nonblank_names_and_positive_low_deposits",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_full_nonblank_names_and_positive_low_deposits",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_integer_recovery_at_every_numeric_prompt",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_integer_recovery_at_every_numeric_prompt",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_eof_at_every_prompt_and_after_each_rejection",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_case_insensitive_stop_and_invalid_decision_recovery",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_case_insensitive_stop_and_invalid_decision_recovery",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_case_insensitive_continue_and_balance_state",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_case_insensitive_continue_and_balance_state",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_bet_guess_boundaries_and_random_all_in_outcome",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L205",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_consolejourneytests_test_bet_guess_boundaries_and_random_all_in_outcome",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_1",
+      "target": "test_console",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_20",
+      "target": "test_console_nativebuild",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_24",
+      "target": "test_console_nativebuild_setupclass",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_50",
+      "target": "test_console_helperunittests",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_53",
+      "target": "test_console_helperunittests_test_native_helpers_and_original_branches",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_67",
+      "target": "test_console_consolejourneytests",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_70",
+      "target": "test_console_consolejourneytests_journey",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_86",
+      "target": "test_console_consolejourneytests_assert_round_math",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_120",
+      "target": "test_console_consolejourneytests_test_full_nonblank_names_and_positive_low_deposits",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_136",
+      "target": "test_console_consolejourneytests_test_integer_recovery_at_every_numeric_prompt",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_159",
+      "target": "test_console_consolejourneytests_test_eof_at_every_prompt_and_after_each_rejection",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_178",
+      "target": "test_console_consolejourneytests_test_case_insensitive_stop_and_invalid_decision_recovery",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_190",
+      "target": "test_console_consolejourneytests_test_case_insensitive_continue_and_balance_state",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_201",
+      "target": "test_console_consolejourneytests_test_bet_guess_boundaries_and_random_all_in_outcome",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_console_rationale_216",
+      "target": "test_console_main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_console.py",
+      "source_location": "L216",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_run_round",
+      "target": "main_1_round1",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_parser",
+      "target": "console_input_trim",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_parser",
+      "target": "console_input_parse_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_names",
+      "target": "console_input_read_name",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_integers",
+      "target": "console_input_read_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "console_input_tests_test_decisions",
+      "target": "console_input_read_decision",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "console_input_tests.cpp",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1_round1",
+      "target": "console_input_read_name",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "main (1).cpp",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1_round1",
+      "target": "console_input_read_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "main (1).cpp",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_1_round1",
+      "target": "console_input_read_decision",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "main (1).cpp",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "metadata": {
+    "built_at": "2026-11-04T12:46:37.772861+00:00",
+    "version": "graph_update-v1",
+    "codebase_root": "C:\\artifacts-v2\\T011GSU2iRpR9000104112612321019\\developer",
+    "force": true,
+    "files_scanned": 4
+  }
+}
